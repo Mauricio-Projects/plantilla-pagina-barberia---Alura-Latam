@@ -47,19 +47,19 @@ nav a:hover{
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
+    box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    box-sizing: border-box;
 }
 
-.productos li:hover {
-    border-color: #c78c19;
-    
+.productos li:hover{
+    border-color:#c78c19;
 }
 
 .productos li:active{
-    border-color: #088c19;
+    border-color:#088c19;
 }
+
 .productos h2{
     font-size: 30px;
     font-weight: bold;
@@ -79,14 +79,40 @@ nav a:hover{
     margin-top:10px;
 }
 
-footer {
+footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
-    padding: 40px;
+    padding:40px;
 }
 
-.copyright {
-    color: #FFFFFF;
+.copyright{
+    color:#FFFFFF;
     font-size: 13px;
-    margin: 20px;
+    margin:20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
 }
