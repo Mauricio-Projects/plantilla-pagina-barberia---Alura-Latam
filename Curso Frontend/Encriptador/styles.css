@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    margin-left: 80px;
+
+}
+
+.input-texto{
+    margin: 15px;
+}
